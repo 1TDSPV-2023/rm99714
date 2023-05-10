@@ -1,46 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Exemplo Gitpages</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <!-- <script>
+        var nr1 = 10;
+        var nr2 = 5;
+
+        //Imprimindo as variáveis com console.log()
+
+        //Realizando a operaçao de adição.
+        console.log("OPERAÇÃO DE ADIÇÃO: ");
+        console.log(nr1 + nr2);
+
+        //Realizando a operaçao de subtração.
+        console.log("OPERAÇÃO DE SUBTRAÇÃO: ");
+        console.log(nr1 - nr2);
+
+        //Realizando a operaçao de divisão.
+        console.log("OPERAÇÃO DE DIVISÃO: " + (nr1 / nr2));
+
+        //Realizando a operaçao de multiplicação.
+        console.log("OPERAÇÃO DE MULTIPLICAÇÃO: " , (nr1 * nr2));
+
+        //Obtendo o resto da divisão com o operador módulo ( % ).
+        //UTILIZANDO INTERPOLAÇÃO
+        console.log(`OBTENDO O RESTO DA DIVISÃO: ${nr1} % ${nr2} = ${nr1 % nr2}`);
+        
+    </script> -->
+
+    <script src="./js/script.js" defer></script>
+
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <nav>
-                <a href="#">Item-1</a>|<a href="#">Item-2</a>|<a href="#">Item-3</a>
-            </nav>
-        </header>
-        <section class="conteudo">
-            <div class="box">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Ullam voluptate illo explicabo veritatis sunt aliquid?
-                Nesciunt quo modi, blanditiis distinctio reiciendis aliquam, 
-                eveniet ipsa, possimus quis natus maiores repudiandae assumenda!
-            </div>
-            <div class="box">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Ullam voluptate illo explicabo veritatis sunt aliquid?
-                Nesciunt quo modi, blanditiis distinctio reiciendis aliquam, 
-                eveniet ipsa, possimus quis natus maiores repudiandae assumenda!
-            </div>
-            <div class="box">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Ullam voluptate illo explicabo veritatis sunt aliquid?
-                Nesciunt quo modi, blanditiis distinctio reiciendis aliquam, 
-                eveniet ipsa, possimus quis natus maiores repudiandae assumenda!
-            </div>
-        </section>
-        <footer>
-            <div>
-                <p>
-                    Todos os direitos reservados
-                </p>
-            </div>
-        </footer>
+
+    <header class="cabecalho">
+        <img src="./img/logo.png" alt="Monigtor de computador.">
+        <nav id="menu">
+            <a href="#">Item-1</a>
+            <a href="#">Item-2</a>
+            <a href="#">Item-3</a>
+        </nav>
+    </header>
+
+    <h2 class="tit-sec">Seção Foto</h2>
+
+    <div>
+        <!-- <button name="botao" onclick="alert(document.querySelector('.conteudo img').src)">CLICK</button> -->
+        <button>CLICK</button>
     </div>
+ 
+    <section class="conteudo">
+        <div>
+            <img src="./img/lobo1.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+        <div>
+            <img src="./img/lobo2.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+        <div>
+            <img src="./img/lobo3.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+        <div>
+            <img src="./img/lobo4.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+        <div>
+            <img src="./img/lobo5.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+        <div>
+            <img src="./img/lobo6.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <h2>Fale Conosco</h2>
+        <!-- <nav>
+            <a href="#"><img src="./img/social-1.png" alt="Logo github"></a>
+            <a href="#"><img src="./img/social-2.png" alt="Logo facebook"></a>
+            <a href="#"><img src="./img/social-3.png" alt="Logo twitter"></a>
+        </nav> -->
+ 
+        
+
+    </footer>
+
+    <!-- <script>
+
+        //Comentário de linha
+        /*
+        * Para comentário de Bloco
+        */
+
+        //Declaração de variáveis com a palavra reservada var
+        var nr1 = 10;
+        var nr2 = 5;
+
+        //Saída de dados com console.log()
+        console.log(nr1);
+        console.log(nr2);
+
+        const botoes = document.querySelectorAll("button");
+
+        botoes.forEach( (botao)=>{
+
+            if(botao.textContent == "CLICK"){
+                botao.addEventListener("click", ()=>{
+                    alert("oi!!");
+                })
+            }
+        });
+    
+    </script> -->
+
+    <!-- <script src="./js/script.js"></script> -->
+
 </body>
+
 </html>

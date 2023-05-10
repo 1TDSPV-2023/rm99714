@@ -1,0 +1,42 @@
+@import url("./cabecalho.css");
+@import url("./conteudo.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.7%;
+}
+
+.tit-sec{
+    text-align: center;
+    font-size: 4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* 
+vw = view width
+vh = view hight */
+
+/* BREAKPOINT DO CABEÇALHO */
+@media(max-width:629px){
+    .cabecalho{
+        flex-direction: column;
+    }
+
+    .cabecalho nav{
+        flex-wrap: nowrap;
+    }
+
+    .cabecalho a{
+        font-size: 2rem;
+        padding: 10% 0;
+         
+    }
+
+}
+/* BREAKPOINT DO CABEÇALHO */
