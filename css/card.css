@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+#user-card {
+    width: 20rem;
+    height: 25rem;
+    border-radius: 1rem;
+    display: flex;
+    transition: all .5s;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    
+}
+#user-card:hover {
+    cursor: pointer;
+    transition: all .5s;
+    transform: scale(105%);
+}
+.profile-container img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 7.5rem;
+}
+
+#bemvindo-user {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
